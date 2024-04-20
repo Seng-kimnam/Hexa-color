@@ -1,0 +1,32 @@
+body
+{
+    display: flex;
+    margin : 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem
+}
+button
+{
+    width: 10rem;
+    height: 5rem;
+    font-size: 20px;
+    box-shadow: 0 0 5px black  ;
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+button:hover
+{
+    box-shadow: 0 0 20px black;
+}
+button:active
+{
+    background-color: black;
+    color:white;
+}
+h3
+{
+    font-size: 30px;
+    word-spacing: 20px;
+    font-family: monospace;
+}
